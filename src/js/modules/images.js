@@ -23,6 +23,7 @@ const images = () => {
             imgPopup.style.display = 'flex';
             const path = target.parentNode.getAttribute('href');
             bigImage.setAttribute('src', path);
+            bigImage.classList.add('big-image');
             document.body.style.overflow = 'hidden';
         }
 

@@ -18,6 +18,19 @@ body {
   color: red;
 }
 
+.faded {
+  animation: faded 1.5s;
+}
+
+@keyframes faded {
+  from {
+    opacity: 0.1;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -872,6 +885,10 @@ textarea:focus {
   height: 100%;
   z-index: 9;
   background-color: rgba(0, 0, 0, 0.5);
+}
+.big-image {
+  max-width: 50vw;
+  max-height: 90vh;
 }
 
 .myimage {
